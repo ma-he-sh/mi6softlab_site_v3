@@ -1,0 +1,251 @@
+/**imports**/
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600');
+
+
+:root{
+  --white-prim    : #ffffff;
+  --white-sec     : #eeeeee;
+  --darkgrey-prim : #89BED1;
+  --darkgrey-sec  : #A1A6BB;
+  --lightgrey-prim: #F0F2F7;
+  --lightgrey-sec : #E4E7EF;
+  --darkblue-prim : #3A4058;
+  --darkblue-sec  : #222328;
+  --blue-prim     : #0D8AEE;
+  --blue-sec      : #2196F3;
+  --green-prim    : #4BE1AB;
+  --green-sec     : #43D29E;
+  --red-prim      : #FE5339;
+  --red-sec       : #EB4E36;
+  --yellow-prim   : #F3D351;
+  --yellow-sec    : #E8C63B;
+}
+
+* {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 15px;
+}
+
+html,
+body{
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 100;
+  text-transform: none;
+  margin: 0 0 20px 0; 
+}
+
+.fl_left{
+  float: left;
+}
+
+.fl_right{
+  float: right;
+}
+
+a ,a.link, a.visited, a.hover {
+  color: #31486E;
+  opacity: 0.82;
+  text-decoration: none;
+}
+
+.smooth {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/**INPUT**/
+input{
+  font-family: 'Fira Sans', sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}
+
+input:focus{
+  outline-color: var(--yellow-sec);
+}
+
+input[type=text], 
+input[type=email], 
+input[type=password], 
+input[type=number],
+input[type=date],
+input[type=datetime-local],
+input[type=month],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+input[type=week]{
+    border: 2px solid var(--lightgrey-prim);
+    margin: 2px;
+    height: 32px;
+    border-radius: 2.5px;
+    text-indent: 4px;
+    width: 100%;
+}
+
+button,
+input[type=submit],
+input[type=button],
+input[type=reset]{
+    height: 32px;
+    margin: 2px;
+    font-weight: 500;
+    border-radius: 2px;
+    border-style: none;
+}
+
+input[type=radio],
+input[type=checkbox]{
+
+}
+
+input[type=range]{
+
+}
+
+/**input hover**/
+input[type=text]:hover, 
+input[type=email]:hover, 
+input[type=password]:hover, 
+input[type=number]:hover,
+input[type=date]:hover,
+input[type=datetime-local]:hover,
+input[type=month]:hover,
+input[type=search]:hover,
+input[type=tel]:hover,
+input[type=time]:hover,
+input[type=url]:hover,
+input[type=week]:hover{
+    border: 2px solid var(--lightgrey-sec);
+}
+
+/**input active**/
+input[type=text]:active, 
+input[type=email]:active, 
+input[type=password]:active, 
+input[type=number]:active,
+input[type=date]:active,
+input[type=datetime-local]:active,
+input[type=month]:active,
+input[type=search]:active,
+input[type=tel]:active,
+input[type=time]:active,
+input[type=url]:active,
+input[type=week]:active{
+    border: 2px solid var(--yellow-prim);
+}
+
+
+/**button css**/
+.submit-prim-btn{
+  border: 2px solid var(--blue-prim);
+  color: var(--blue-prim);
+  background: rgba(106, 184, 247, 0.5);
+}
+
+.submit-sec-btn{
+  border: 2px solid var(--blue-prim);
+  color: var(--blue-sec);
+  background: var(--white-prim);
+}
+
+/**card**/
+.card{
+  width: 100%;
+  height: auto;
+  padding: 15px 15px;
+  background: var(--white-prim);
+  border-radius: 4.8px;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+
+  -webkit-box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
+  -moz-box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
+}
+
+.card-title{
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.card-primary{
+  background: var(--blue-prim);
+}
+
+.card-secondary{
+  background: var(--darkblue-prim);
+}
+
+.card-primary .card-title, .card-secondary .card-title{
+  color: var(--white-prim) !important;
+}
+
+/* scroll bar =========================*/
+
+::-webkit-scrollbar {
+  width: 2px;
+  background-color: rgba(238, 238, 238, 0.1);
+}
+
+::-webkit-scrollbar-track {
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2196f3;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(238, 238, 238, 0.1);
+}
+
+::-webkit-scrollbar-corner {
+  background-color: rgba(238, 238, 238, 0.8);
+}
+
+::-webkit-input-placeholder {
+  color: #34495e;
+}
+
+::-moz-placeholder {
+  color: #34495e;
+}
+
+:-ms-input-placeholder {
+  color: #34495e;
+}
+
+:-moz-placeholder {
+  color: #34495e;
+}
+
+/*image responsive*/
+img {
+  width: 100% !important;
+  max-width: 600px !important;
+  height: auto!important;
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+img{
+display: block !important;
+}
+
+p {
+  white-space: pre-wrap;     
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;     
+  white-space: -o-pre-wrap;   
+  word-wrap: break-word;
+}
