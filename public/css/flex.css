@@ -1,0 +1,256 @@
+@media (min-width: 300px) {
+	.full_w {
+		width: 100%;
+	}
+	.half_w {
+		width: 100%;
+	}
+	.three_w {
+		width: 100%;
+	}
+}
+
+@media (min-width: 400px) {
+	.full_w {
+		width: 100%;
+	}
+	.half_w {
+		width: 100%;
+	}
+	.three_w {
+		width: 100%;
+	}
+}
+
+@media (min-width: 550px) {
+	.full_w {
+		width: 100%;
+	}
+	.half_w {
+		width: 100%;
+	}
+	.three_w {
+		width: 100%;
+	}
+}
+
+@media (min-width: 750px) {
+	.full_w {
+		width: 100%;
+	}
+	.half_w {
+		width: 50%;
+	}
+	.three_w {
+		width: 33.333%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.full_w {
+		width: 100%;
+	}
+	.half_w {
+		width: 50%;
+	}
+	.three_w {
+		width: 33.3333%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.full_w {
+		width: 100%;
+	}
+	.half_w {
+		width: 50%;
+	}
+	.three_w {
+		width: 33.333%;
+	}
+}
+
+.site_main_content{
+    min-width: 300px;
+    max-width: 1200px;
+    width: 95%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto 55px auto;
+    background-color: aquamarine;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.add-margin-top{
+	top: 60px;
+}
+
+.center_div{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: aqua;
+}
+
+
+/**
+app header
+**/
+
+.page-header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2000;
+	height: 60px;
+}
+
+.header-container{
+	min-width: 300px;
+	max-width: 1200px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	left: 0;
+    right: 0;
+}
+
+.app-logo{
+	width: 50px;
+	height: 50px;
+	margin: 5px 5px 5px 0px;
+	box-sizing: border-box;
+	float: left;
+	background: url('/assets/mi6_logo.svg');
+}
+
+.app-nav-bar{
+	width: auto;
+	height: 40px;
+	float: right;
+	margin: 10px 0 10px 0;
+}
+
+.nav-item{
+	width: auto;	
+	line-height: 40px;
+	padding: 0 10px 0 10px;
+	color: var(--darkgrey-sec);
+	cursor: pointer;
+	float: right;
+}
+
+.nav-item:hover{
+	color: var(--blue-prim);
+}
+
+/**
+index page 
+**/
+.index-logo-wrapper{
+	width: 240px;
+	height: 240px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.mi6softlab_logo{
+	width: 100%;
+	height: 100%;
+	background: url('/assets/mi6_logo.svg');
+}
+
+/**
+social bar
+**/
+.app-social-bar{
+	width: 300px;
+	height: 80px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+}
+
+.app_social_icons {
+	width: 32px;
+	height: 32px;
+	margin: 9px;
+	float: left;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.app_social_icons:hover {
+	color: rgba(255, 255, 255, 1);
+}
+
+.app-social-icons{
+	width: 100%;
+	height: 50px;
+	float: left;
+}
+
+#app-rights{
+	width: 100%;
+	height: 30px;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	color: var(--darkgrey-sec);
+}
+
+.behance,
+.codepen,
+.devianart,
+.github,
+.youtube,
+.vimeo {
+	width: 32px;
+	height: 32px;
+	display: block;
+	opacity: 0.5;
+}
+
+.behance:hover,
+.codepen:hover,
+.devianart:hover,
+.github:hover,
+.youtube:hover,
+.vimeo:hover {
+	opacity: 1;
+}
+
+.behance {
+	background: url('/assets/behence.svg');
+}
+
+.codepen {
+	background: url('/assets/codepen.svg');
+}
+
+.devianart {
+	background: url('/assets/devianart.svg');
+}
+
+.github {
+	background: url('/assets/github.svg');
+}
+
+.youtube {
+	background: url('/assets/youtube.svg');
+}
+
+.vimeo {
+	background: url('/assets/vimeo.svg');
+}

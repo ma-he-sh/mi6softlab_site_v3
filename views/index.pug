@@ -1,5 +1,33 @@
-extends layout
+doctype html
+html
+  head
+    title=title
+    link(rel='stylesheet', href='/css/flex.css')
+    link(rel='stylesheet', href='/css/main.css')
 
-block content
-  h1= title
-  p Welcome to #{title}
+    link(rel='icon' type='image/png' href='/assets/mi6_logo_16.png' sizes='16x16')
+    link(rel='icon' type='image/png' href='/assets/mi6_logo_32.png' sizes='32x32')
+    link(rel='icon' type='image/x-icon' href='/assets/favicon.ico')
+    link(rel='shortcut icon' type='image/x-icon' href='/assets/favicon.ico')
+  body
+    <!-- menu -->
+    include menu.pug
+
+    <!-- main page content -->
+    .index-logo-wrapper
+      .mi6softlab_logo
+
+    <!-- social bar -->
+    include socialbar.pug
+
+  script.
+        function rights(){
+            var curr = new Date();
+            var year = curr.getFullYear();
+            document.getElementById('app-rights').innerHTML = '&copy;'+year+' Mahesh-Ranaweera';
+        }
+
+        window.onload = function(){
+            rights();
+        }
+    
