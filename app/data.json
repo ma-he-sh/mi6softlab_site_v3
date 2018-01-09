@@ -142,13 +142,6 @@
                 "site": "Devianart"
             },
             {
-                "title": "Mi6softlab Logo",
-                "content" : "http://orig09.deviantart.net/c16b/f/2014/233/3/e/mi6softlab_logo_by_mi6softlab-d7w2rsd.png",
-                "siteurl" : "http://orig09.deviantart.net/c16b/f/2014/233/3/e/mi6softlab_logo_by_mi6softlab-d7w2rsd.png",
-                "type": "image",
-                "site": "Devianart"
-            },
-            {
                 "title": "Beyond the fence",
                 "content" : "http://pre01.deviantart.net/067c/th/pre/i/2013/244/4/e/beyond_the_fence_by_mi6softlab-d6kobwi.png",
                 "siteurl" : "http://pre01.deviantart.net/067c/th/pre/i/2013/244/4/e/beyond_the_fence_by_mi6softlab-d6kobwi.png",
@@ -255,13 +248,33 @@
             }
         ],
         "dev": [
-
+            {
+                "title": "",
+                "date" : "",
+                "desc" : "",
+                "learnobj": "",
+                "previews": [
+                    "image urls"
+                ],
+                "links" : [
+                    "links to github, website and etc"
+                ]
+            }
         ],
         "blog": [
+            {
+                "title:" : "",
+                "date"  : "",
+                "description": "",
+                "previews": [
 
+                ]
+            }
         ],
         "about": {
-
+            "title" : "",
+            "about" : "",
+            "resume": "url"
         }
     }
 }
