@@ -5,9 +5,19 @@ block content
     .grid
         for item, i in content
             .item.half_w
-                .card
-                    | #{content[i].title}
-
+                - var url = content[i].content
+                if (content[i].type == 'video' && (content[i].site == 'Vimeo'))
+                    .imgcard.smooth
+                        iframe(src=url width="100%" height="240px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="")
+                else if (content[i].type == 'video' && (content[i].site == 'Youtube'))
+                    .imgcard.smooth
+                        iframe(src=url width="100%" height="240px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="")
+                else if (content[i].type == 'image')
+                    .imgcard.smooth
+                        img(src=url, style='border-radius: 2.5px;')
+                else
+                    .card.smooth
+                        | Content not found
     script.
       var grid = new Muuri('.grid');
 

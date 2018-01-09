@@ -301,8 +301,17 @@ social bar
 	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
 }
 
-.imgcard{
+.card:hover,
+.card-primary:hover,
+.card-secondary:hover,
+.imgcard:hover {
+	-webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+	-moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+}
 
+.imgcard{
+	padding: 0px 0px;
 }
 
 .card{
