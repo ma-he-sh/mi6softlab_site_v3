@@ -13,7 +13,7 @@ router.get('/', function (req, res, next) {
 router.get('/design', function (req, res, next) {
   var jsonData = jsonfile.readFileSync(json_f)
 
-  console.log(jsonData.data.design);
+  //console.log(jsonData.data.design);
   
   res.render('design', { 
     title: 'Design',
