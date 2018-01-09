@@ -9,15 +9,17 @@ html
     link(rel='icon' type='image/png' href='/assets/mi6_logo_32.png' sizes='32x32')
     link(rel='icon' type='image/x-icon' href='/assets/favicon.ico')
     link(rel='shortcut icon' type='image/x-icon' href='/assets/favicon.ico')
+
+    script(src='/js/jquery.min.js')
+    script(src='/js/typed.min.js')
   body
-    <!-- menu -->
     include menu.pug
 
     <!-- main page content -->
     .index-logo-wrapper
       .mi6softlab_logo
+      #description
 
-    <!-- social bar -->
     include socialbar.pug
 
   script.
@@ -30,4 +32,4 @@ html
         window.onload = function(){
             rights();
         }
-    
+  script(src='/js/intro.js')

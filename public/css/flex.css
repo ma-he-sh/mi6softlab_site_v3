@@ -70,38 +70,36 @@
 	}
 }
 
-.site_main_content{
-    min-width: 300px;
-    max-width: 1200px;
-    width: 95%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto 55px auto;
-    background-color: aquamarine;
-    padding: 5px;
-    box-sizing: border-box;
+.site_main_content {
+	min-width: 300px;
+	max-width: 1200px;
+	width: 95%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto 55px auto;
+	padding: 5px;
+	box-sizing: border-box;
 }
 
-.add-margin-top{
+.add-margin-top {
 	top: 60px;
 }
 
-.center_div{
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-color: aqua;
+.center_div {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-color: aqua;
 }
-
 
 /**
 app header
 **/
 
-.page-header{
+.page-header {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -110,7 +108,7 @@ app header
 	height: 60px;
 }
 
-.header-container{
+.header-container {
 	min-width: 300px;
 	max-width: 1200px;
 	height: 100%;
@@ -118,10 +116,10 @@ app header
 	margin-right: auto;
 	width: 95%;
 	left: 0;
-    right: 0;
+	right: 0;
 }
 
-.app-logo{
+.app-logo {
 	width: 50px;
 	height: 50px;
 	margin: 5px 5px 5px 0px;
@@ -130,15 +128,15 @@ app header
 	background: url('/assets/mi6_logo.svg');
 }
 
-.app-nav-bar{
+.app-nav-bar {
 	width: auto;
 	height: 40px;
 	float: right;
 	margin: 10px 0 10px 0;
 }
 
-.nav-item{
-	width: auto;	
+.nav-item {
+	width: auto;
 	line-height: 40px;
 	padding: 0 10px 0 10px;
 	color: var(--darkgrey-sec);
@@ -146,16 +144,17 @@ app header
 	float: right;
 }
 
-.nav-item:hover{
+.nav-item:hover {
 	color: var(--blue-prim);
 }
 
 /**
 index page 
 **/
-.index-logo-wrapper{
+
+.index-logo-wrapper {
 	width: 240px;
-	height: 240px;
+	height: 280px;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -164,16 +163,26 @@ index page
 	margin: auto;
 }
 
-.mi6softlab_logo{
+.mi6softlab_logo {
 	width: 100%;
-	height: 100%;
+	height: 240px;
 	background: url('/assets/mi6_logo.svg');
+}
+
+#description {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	color: var(--darkblue-prim);
 }
 
 /**
 social bar
 **/
-.app-social-bar{
+
+.app-social-bar {
 	width: 300px;
 	height: 80px;
 	position: fixed;
@@ -195,13 +204,13 @@ social bar
 	color: rgba(255, 255, 255, 1);
 }
 
-.app-social-icons{
+.app-social-icons {
 	width: 100%;
 	height: 50px;
 	float: left;
 }
 
-#app-rights{
+#app-rights {
 	width: 100%;
 	height: 30px;
 	float: left;
@@ -210,24 +219,14 @@ social bar
 	color: var(--darkgrey-sec);
 }
 
-.behance,
-.codepen,
-.devianart,
-.github,
-.youtube,
-.vimeo {
+.behance, .codepen, .devianart, .github, .youtube, .vimeo {
 	width: 32px;
 	height: 32px;
 	display: block;
 	opacity: 0.5;
 }
 
-.behance:hover,
-.codepen:hover,
-.devianart:hover,
-.github:hover,
-.youtube:hover,
-.vimeo:hover {
+.behance:hover, .codepen:hover, .devianart:hover, .github:hover, .youtube:hover, .vimeo:hover {
 	opacity: 1;
 }
 
@@ -253,4 +252,78 @@ social bar
 
 .vimeo {
 	background: url('/assets/vimeo.svg');
+}
+
+/**
+* Muuri grid
+**/
+
+.grid {
+	position: relative;
+}
+
+.item {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.item.muuri-item-dragging {
+	z-index: 3;
+}
+
+.item.muuri-item-releasing {
+	z-index: 2;
+}
+
+.item.muuri-item-hidden {
+	z-index: 0;
+}
+
+/**card**/
+
+.card,
+.card-primary,
+.card-secondary,
+.imgcard {
+	position: relative;
+	width: 100%;
+	height: auto;
+	background: var(--white-prim);
+	border-radius: 4px;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+	-moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.imgcard{
+
+}
+
+.card{
+	padding: 15px 15px;
+}
+
+.card-title {
+	font-size: 24px;
+	line-height: 1.4;
+}
+
+.card-primary {
+	padding: 15px 15px;
+	background: var(--blue-prim);
+}
+
+.card-secondary {
+	padding: 15px 15px;
+	background: var(--darkblue-prim);
+}
+
+.card-primary .card-title, .card-secondary .card-title {
+	color: var(--white-prim) !important;
 }
