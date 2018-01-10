@@ -35,8 +35,13 @@ block content
 
                         if (content[i].links.youtube != "")
                             - var youtube = content[i].links.youtube
-                                a(href=youtube, target='_blank', title='Youtube video')
-                                    div(class="youtube")
+                            a(href=youtube, target='_blank', title='Youtube video')
+                                div(class="youtube")
+                        
+                        if (content[i].links.mobile != "")
+                            - var mobile = content[i].links.mobile
+                            a(href=mobile, target='_blank', title='Mobile App Link')
+                                div(class="mobileapp")
 
                     .card-section
                         for j in content[i].codeassets

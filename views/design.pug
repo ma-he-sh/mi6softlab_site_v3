@@ -7,14 +7,21 @@ block content
             .item.half_w
                 - var url = content[i].content
                 - var title = content[i].title
+                
                 if (content[i].type == 'video' && (content[i].site == 'Vimeo'))
                     .imgcard.smooth
                         iframe(src=url width="100%" height="240px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" title=title)
+                
                 else if (content[i].type == 'video' && (content[i].site == 'Youtube'))
                     .imgcard.smooth
                         iframe(src=url width="100%" height="240px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" title=title)
+                
                 else if (content[i].type == 'image')
                     .imgcard.smooth
+                        .url-linker
+                            - var sitecont = content[i].siteurl
+                            a(href=sitecont, target='_blank')
+                                .linkicon
                         img(src=url, style='border-radius: 2.5px;', title=title)
                 else
                     .card.smooth

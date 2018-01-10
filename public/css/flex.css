@@ -219,7 +219,7 @@ social bar
 	color: var(--darkgrey-sec);
 }
 
-.behance, .codepen, .devianart, .github, .youtube, .vimeo, .info, .globe {
+.behance, .codepen, .devianart, .github, .youtube, .vimeo, .info, .globe, .mobileapp, .linkicon {
 	width: 32px;
 	height: 32px;
 	display: block;
@@ -228,7 +228,7 @@ social bar
 	float: left;
 }
 
-.behance:hover, .codepen:hover, .devianart:hover, .github:hover, .youtube:hover, .vimeo:hover, .info:hover, .globe:hover {
+.behance:hover, .codepen:hover, .devianart:hover, .github:hover, .youtube:hover, .vimeo:hover, .info:hover, .globe:hover, .mobileapp:hover, .linkicon:hover {
 	opacity: 1;
 }
 
@@ -262,6 +262,14 @@ social bar
 
 .globe {
 	background: url('/assets/globe.svg');
+}
+
+.mobileapp {
+	background: url('/assets/mobile.svg');
+}
+
+.linkicon{
+	background: url('/assets/link.svg');
 }
 
 /**
@@ -398,4 +406,16 @@ social bar
 
 .card-primary .card-title, .card-secondary .card-title {
 	color: var(--white-prim) !important;
+}
+
+.url-linker{
+	width: 100%;
+	height: 40px;
+	float: left;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: transparent;
 }
