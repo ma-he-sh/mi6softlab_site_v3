@@ -3,15 +3,31 @@
         "design" : [
             {
                 "title": "New Year 2018",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484496/designs/84a6c860351615.5a492ceb6a470.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484496/designs/84a6c860351615.5a492ceb6a470.png",
                 "siteurl" : "https://www.behance.net/gallery/60351615/Happy-New-Year-2018",
                 "type": "image",
                 "site": "Behance",
                 "date": "2017-12"
             },
             {
+                "title": "Nature Photography",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_450/v1515541284/mahesh-ranaweera-493850_vnch7n.jpg",
+                "siteurl" : "https://unsplash.com/@mi6softlab",
+                "type": "image",
+                "site": "Unsplash",
+                "date": "2017-12"
+            },
+            {
+                "title": "Nature Photography",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_450/v1515541291/mahesh-ranaweera-493871_b7nhbi.jpg",
+                "siteurl" : "https://unsplash.com/@mi6softlab",
+                "type": "image",
+                "site": "Unsplash",
+                "date": "2017-12"
+            },
+            {
                 "title": "Depth",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484502/designs/f37b8e54161201.595a4cc72f7fa.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484502/designs/f37b8e54161201.595a4cc72f7fa.png",
                 "siteurl" : "https://www.behance.net/gallery/54161201/WireFrame",
                 "type": "image",
                 "site": "Behance",
@@ -19,7 +35,7 @@
             },
             {
                 "title": "James Webb Space Telescope",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484493/designs/824d2954161201.595080540f704.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484493/designs/824d2954161201.595080540f704.png",
                 "siteurl" : "https://www.behance.net/gallery/54161201/WireFrame",
                 "type": "image",
                 "site": "Behance",
@@ -27,7 +43,7 @@
             },
             {
                 "title": "DNA",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484504/designs/38fbe954161201.5950366105ed4.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484504/designs/38fbe954161201.5950366105ed4.png",
                 "siteurl" : "https://www.behance.net/gallery/54161201/WireFrame",
                 "type": "image",
                 "site": "Behance",
@@ -35,7 +51,7 @@
             },
             {
                 "title": "Depth of field",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484510/designs/2c244054161201.5950366105a12.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484510/designs/2c244054161201.5950366105a12.png",
                 "siteurl" : "https://www.behance.net/gallery/54161201/WireFrame",
                 "type": "image",
                 "site": "Behance",
@@ -43,7 +59,7 @@
             },
             {
                 "title": "Depth of field",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484504/designs/4a649f54161201.595036610572f.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484504/designs/4a649f54161201.595036610572f.png",
                 "siteurl" : "https://www.behance.net/gallery/54161201/WireFrame",
                 "type": "image",
                 "site": "Behance",
@@ -51,7 +67,7 @@
             },
             {
                 "title": "Mobile App UI",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484508/designs/e00b3253098267.5927a6378cc2c.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484508/designs/e00b3253098267.5927a6378cc2c.png",
                 "siteurl" : "https://www.behance.net/gallery/53098267/HIVE-MOBILE-APP-UI",
                 "type": "image",
                 "site": "Behance",
@@ -59,7 +75,7 @@
             },
             {
                 "title": "Mobile App UI",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484494/designs/68eaf753098267.5927a406c9b1b.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484494/designs/68eaf753098267.5927a406c9b1b.png",
                 "siteurl" : "https://www.behance.net/gallery/53098267/HIVE-MOBILE-APP-UI",
                 "type": "image",
                 "site": "Behance",
@@ -67,7 +83,7 @@
             },
             {
                 "title": "TYPS",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484483/designs/c7c68152620023.5916271d72e24.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484483/designs/c7c68152620023.5916271d72e24.png",
                 "siteurl" : "https://www.behance.net/gallery/52620023/TYPS",
                 "type": "image",
                 "site": "Behance",
@@ -75,7 +91,7 @@
             },
             {
                 "title": "HIVE Layout",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484493/designs/571cdf52140137.590691dc3dd12.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484493/designs/571cdf52140137.590691dc3dd12.png",
                 "siteurl" : "https://www.behance.net/gallery/52140137/HIVE",
                 "type": "image",
                 "site": "Behance",
@@ -83,7 +99,7 @@
             },
             {
                 "title": "HIVE Layout",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484504/designs/ef0bb852140137.5906904aacb39.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484504/designs/ef0bb852140137.5906904aacb39.png",
                 "siteurl" : "https://www.behance.net/gallery/52140137/HIVE",
                 "type": "image",
                 "site": "Behance",
@@ -91,7 +107,7 @@
             },
             {
                 "title": "New Year 2017",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484506/designs/e329bf46872525.5868054a71863.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484506/designs/e329bf46872525.5868054a71863.png",
                 "siteurl" : "https://www.behance.net/gallery/46872525/Happy-New-Year",
                 "type": "image",
                 "site": "Behance",
@@ -99,7 +115,7 @@
             },
             {
                 "title": "HIVE Layout",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484505/designs/e4390452140137.5906904aac53e.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484505/designs/e4390452140137.5906904aac53e.png",
                 "siteurl" : "https://www.behance.net/gallery/52140137/HIVE",
                 "type": "image",
                 "site": "Behance",
@@ -107,7 +123,7 @@
             },
             {
                 "title": "Mr.Fox",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484484/designs/d031aa46698039.586009d3f1a01.gif",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484484/designs/d031aa46698039.586009d3f1a01.gif",
                 "siteurl" : "https://www.behance.net/gallery/46698039/MrFox-vs-Stinging-Nettle",
                 "type": "image",
                 "site": "Behance",
@@ -123,7 +139,7 @@
             },
             {
                 "title": "Space Ship",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484498/designs/space_ship_by_mi6softlab-d8u45dq.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484498/designs/space_ship_by_mi6softlab-d8u45dq.png",
                 "siteurl" : "http://orig10.deviantart.net/3345/f/2015/140/1/f/space_ship_by_mi6softlab-d8u45dq.png",
                 "type": "image",
                 "site": "Devianart",
@@ -131,7 +147,7 @@
             },
             {
                 "title": "Propeller",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484489/designs/propeller_by_mi6softlab-d8tdmh5.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484489/designs/propeller_by_mi6softlab-d8tdmh5.png",
                 "siteurl" : "http://orig13.deviantart.net/2744/f/2015/134/b/4/propeller_by_mi6softlab-d8tdmh5.png",
                 "type": "image",
                 "site": "Devianart",
@@ -139,7 +155,7 @@
             },
             {
                 "title": "Way Home",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484483/designs/way_home__by_mi6softlab-d5y8kan.jpg",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484483/designs/way_home__by_mi6softlab-d5y8kan.jpg",
                 "siteurl" : "http://img00.deviantart.net/e74b/i/2013/075/6/c/way_home__by_mi6softlab-d5y8kan.jpg",
                 "type": "image",
                 "site": "Devianart",
@@ -147,7 +163,7 @@
             },
             {
                 "title": "Desktop",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484513/designs/desktop_by_mi6softlab-d966eol.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484513/designs/desktop_by_mi6softlab-d966eol.png",
                 "siteurl" : "http://pre02.deviantart.net/ced4/th/pre/f/2015/230/c/3/desktop_by_mi6softlab-d966eol.png",
                 "type": "image",
                 "site": "Devianart",
@@ -155,7 +171,7 @@
             },
             {
                 "title": "Texture",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484488/designs/texture_by_mi6softlab-d8uxx4q.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484488/designs/texture_by_mi6softlab-d8uxx4q.png",
                 "siteurl" : "http://pre11.deviantart.net/e99f/th/pre/f/2015/147/4/4/texture_by_mi6softlab-d8uxx4q.png",
                 "type": "image",
                 "site": "Devianart",
@@ -163,7 +179,7 @@
             },
             {
                 "title": "Pixel Density",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515521865/pixel_density_by_mi6softlab-d8c3804_lg1cop.jpg",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515521865/pixel_density_by_mi6softlab-d8c3804_lg1cop.jpg",
                 "siteurl" : "http://pre05.deviantart.net/45d2/th/pre/f/2014/365/5/d/pixel_density_by_mi6softlab-d8c3804.png",
                 "type": "image",
                 "site": "Devianart",
@@ -171,7 +187,7 @@
             },
             {
                 "title": "Air Ship",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484489/designs/airship_wallpaper_by_mi6softlab-d7w2a0o.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484489/designs/airship_wallpaper_by_mi6softlab-d7w2a0o.png",
                 "siteurl" : "http://pre15.deviantart.net/2e2a/th/pre/i/2014/233/3/b/airship_wallpaper_by_mi6softlab-d7w2a0o.png",
                 "type": "image",
                 "site": "Devianart",
@@ -179,7 +195,7 @@
             },
             {
                 "title": "Air Ship",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484487/designs/airship_wallpaper2_by_mi6softlab-d7w29sf.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484487/designs/airship_wallpaper2_by_mi6softlab-d7w29sf.png",
                 "siteurl" : "http://pre10.deviantart.net/d117/th/pre/i/2014/233/1/5/airship_wallpaper2_by_mi6softlab-d7w29sf.png",
                 "type": "image",
                 "site": "Devianart",
@@ -195,7 +211,7 @@
             },
             {
                 "title": "Mi6softlab Logo",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484489/designs/mi6softlab_logo_by_mi6softlab-d7w2rsd.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484489/designs/mi6softlab_logo_by_mi6softlab-d7w2rsd.png",
                 "siteurl" : "http://orig09.deviantart.net/c16b/f/2014/233/3/e/mi6softlab_logo_by_mi6softlab-d7w2rsd.png",
                 "type": "image",
                 "site": "Devianart",
@@ -203,7 +219,7 @@
             },
             {
                 "title": "Drop of Rain",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484507/designs/drop_of_rain_by_mi6softlab-d5zuf1d.jpg",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484507/designs/drop_of_rain_by_mi6softlab-d5zuf1d.jpg",
                 "siteurl" : "http://pre15.deviantart.net/2b33/th/pre/i/2013/089/5/8/drop_of_rain_by_mi6softlab-d5zuf1d.jpg",
                 "type": "image",
                 "site": "Devianart",
@@ -211,7 +227,7 @@
             },
             {
                 "title": "Beyond the fence",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484487/designs/beyond_the_fence_by_mi6softlab-d6kobwi.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484487/designs/beyond_the_fence_by_mi6softlab-d6kobwi.png",
                 "siteurl" : "http://pre01.deviantart.net/067c/th/pre/i/2013/244/4/e/beyond_the_fence_by_mi6softlab-d6kobwi.png",
                 "type": "image",
                 "site": "Devianart",
@@ -219,7 +235,7 @@
             },
             {
                 "title": "Mi6softlab Logo",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484490/designs/mi6_logo_by_mi6softlab-d908ql4.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484490/designs/mi6_logo_by_mi6softlab-d908ql4.png",
                 "siteurl" : "http://pre03.deviantart.net/b408/th/pre/f/2015/187/8/f/mi6_logo_by_mi6softlab-d908ql4.png",
                 "type": "image",
                 "site": "Devianart",
@@ -227,7 +243,7 @@
             },
             {
                 "title": "HD particale wallpaper",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484492/designs/hd_wallapaper_particles_by_mi6softlab-d6q9ug7.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484492/designs/hd_wallapaper_particles_by_mi6softlab-d6q9ug7.png",
                 "siteurl" : "http://pre05.deviantart.net/e5ff/th/pre/i/2013/285/a/2/hd_wallapaper_particles_by_mi6softlab-d6q9ug7.png",
                 "type": "image",
                 "site": "Devianart",
@@ -235,7 +251,7 @@
             },
             {
                 "title": "Explorer",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484508/designs/explorer_setup_by_mi6softlab-d8r1d87.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484508/designs/explorer_setup_by_mi6softlab-d8r1d87.png",
                 "siteurl" : "http://img05.deviantart.net/1ec8/i/2015/115/2/7/explorer_setup_by_mi6softlab-d8r1d87.png",
                 "type": "image",
                 "site": "Devianart",
@@ -243,7 +259,7 @@
             },
             {
                 "title": "Explorer",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484513/designs/explorer_by_mi6softlab-d8r1cwn.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484513/designs/explorer_by_mi6softlab-d8r1cwn.png",
                 "siteurl" : "http://img02.deviantart.net/60fb/i/2015/115/6/4/explorer_by_mi6softlab-d8r1cwn.png",
                 "type": "image",
                 "site": "Devianart",
@@ -251,7 +267,7 @@
             },
             {
                 "title": "Portal",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484489/designs/portal__side_view_by_mi6softlab-d95qiam.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484489/designs/portal__side_view_by_mi6softlab-d95qiam.png",
                 "siteurl" : "http://orig15.deviantart.net/02db/f/2015/227/4/5/portal__side_view_by_mi6softlab-d95qiam.png",
                 "type": "image",
                 "site": "Devianart",
@@ -259,7 +275,7 @@
             },
             {
                 "title": "Portal",
-                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_auto,w_600/v1515484491/designs/portal__front_view_by_mi6softlab-d95qhzh.png",
+                "content" : "http://res.cloudinary.com/mi6img/image/upload/c_scale,q_50,w_600/v1515484491/designs/portal__front_view_by_mi6softlab-d95qhzh.png",
                 "siteurl" : "http://orig09.deviantart.net/4b18/f/2015/227/6/2/portal__front_view_by_mi6softlab-d95qhzh.png",
                 "type": "image",
                 "site": "Devianart",
@@ -332,16 +348,34 @@
         ],
         "dev": [
             {
-                "title": "",
-                "date" : "",
-                "desc" : "",
-                "learnobj": "",
+                "title": "ParadigmShift 2198 Website (High School Robotic Website)",
+                "date" : "2013-2016",
+                "desc" : "I designed this website with the help of my high school robotic club members. Site was designed to promote L'Amoreaux Collegiate Institutes Robotic Club and its achievements. I consider this website to be my first entry into web development.",
+                "codeassets": ["HTML", "JS", "Photoshop", "Illustrator"],
                 "previews": [
-                    "image urls"
+                    "http://res.cloudinary.com/mi6img/image/upload/c_scale,w_600/v1515545266/team2198_web_gqkq6q.png"
                 ],
-                "links" : [
-                    "links to github, website and etc"
-                ]
+                "links" : {
+                    "github": "https://github.com/Mahesh-Ranaweera/ParadigmShift2198_wDatabase",
+                    "youtube": "https://www.youtube.com/user/paradigmshift2198",
+                    "vimeo": "",
+                    "website": "http://team2198.org"
+                }
+            },
+            {
+                "title": "mi6softlab_v1 website",
+                "date" : "2016-04",
+                "desc" : "This was my first official website. I designed this website to be minimalistic with a sci-fi look.",
+                "codeassets": ["HTML", "JS", "Illustrator"],
+                "previews": [
+                    "http://res.cloudinary.com/mi6img/image/upload/c_scale,w_600/v1515557749/web_sitev1_pee9tl.png"
+                ],
+                "links" : {
+                    "github": "https://github.com/Mahesh-Ranaweera/mi6softlab.github.io",
+                    "youtube": "",
+                    "vimeo": "",
+                    "website": "http://mahesh-ranaweera.github.io/mi6softlab.github.io/designs.html"
+                }
             }
         ],
         "blog": [

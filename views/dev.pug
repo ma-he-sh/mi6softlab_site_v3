@@ -1,7 +1,48 @@
 extends layout
 
 block content
+    .grid
+        for item, i in content
+            .item.half_w
+                - var title = content[i].title
+                .card
+                    .card-title
+                        | #{content[i].title}
+                    .meta-data
+                        | #{content[i].date}
+                    .card-img-cont
+                        for k in content[i].previews
+                            - var url = k
+                            img(src=url)
 
+                    .card-content
+                        p #{content[i].desc}
+                    .card-section
+                        if (content[i].links.github != "")
+                            - var github = content[i].links.github
+                            a(href=github, target='_blank', title='Github Repo')
+                                div(class="github")
+
+                        if (content[i].links.website != "")
+                            - var globe = content[i].links.website
+                            a(href=globe, target='_blank', title='Website')
+                                div(class="globe")
+
+                        if (content[i].links.vimeo != "")
+                            - var vimeo = content[i].links.vimeo
+                            a(href=vimeo, target='_blank', title='Vimeo Link')
+                                div(class="vimeo")
+
+                        if (content[i].links.youtube != "")
+                            - var youtube = content[i].links.youtube
+                                a(href=youtube, target='_blank', title='Youtube video')
+                                    div(class="youtube")
+
+                    .card-section
+                        for j in content[i].codeassets
+                            .codeasset
+                                | #{j}
+                            
 
     script.
       var grid = new Muuri('.grid');
