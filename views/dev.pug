@@ -4,7 +4,6 @@ block content
     .grid
         for item, i in content
             .item.half_w
-                - var title = content[i].title
                 .card
                     .card-title
                         | #{content[i].title}
@@ -16,7 +15,8 @@ block content
                             img(src=url)
 
                     .card-content
-                        p #{content[i].desc}
+                        for d in content[i].desc
+                            p #{d}
                     .card-section
                         if (content[i].links.github != "")
                             - var github = content[i].links.github
@@ -35,7 +35,7 @@ block content
 
                         if (content[i].links.youtube != "")
                             - var youtube = content[i].links.youtube
-                            a(href=youtube, target='_blank', title='Youtube video')
+                            a(href=youtube, target='_blank', title='YouTube video')
                                 div(class="youtube")
                         
                         if (content[i].links.mobile != "")

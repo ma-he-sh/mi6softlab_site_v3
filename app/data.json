@@ -348,9 +348,50 @@
         ],
         "dev": [
             {
+                "title": "A web-based platform for comparing Apache Big Data Frameworks",
+                "date" : "2017-12",
+                "desc" : [
+                    "This platform was designed for evaluating Big Data Frameworks real-time and suggest the user which platform is ideal for their project. For this project we decided to use Apache Big Data platforms such as;", 
+                    "Batch-only frameworks (apache hadoop), stream-only frameworks (apache storm and apache samza) and hybrid frameworks (apache spark and apache flink)",
+                    "Each framework was deployed on several Digitalocean and AWS droplets with identical system specs. We created an API to interface with the droplet(server) which allows us to execute remote shell commands and gather system data. User interface was designed to allow users to select the data-processing method(batch, stream or hybrid) and Big data framework to compare. Once the evaluation is finished, user is presented with current data and historical evaluation graph",
+                    "For this project my contributions are; Designing the user interface, remote API, and deploying Samza and Storm Frameworks."
+                ],
+                "codeassets": ["Apache-Samza", "Apache-Spark", "Apache-Flink", "Apache-Hadoop", "NodeJS", "JS", "Pug", "CSS", "Shell", "PostgreSQL", "Express", "DigitalOcean", "AWS"],
+                "previews": [
+                    "http://res.cloudinary.com/mi6img/image/upload/c_scale,h_600/v1515610211/Screenshot_from_2018-01-10_13.48.08_rze1hg.png"
+                ],
+                "links" : {
+                    "github": "https://github.com/Mahesh-Ranaweera/Distributed-Systems_project",
+                    "youtube": "",
+                    "vimeo": "",
+                    "website": "",
+                    "mobile": ""
+                }
+            },
+            {
+                "title": "Bring Me Food (Android App Development)",
+                "date" : "2017-12",
+                "desc" : [
+                    "This was group project for Android App development course. The idea of this app is to order food via a friend. App allows user to be a wanter(who is requesting food) and a bringer(who is buying food). Bringer sets location and restaurant name and a notification is send to friends. Wanters are able to select a bringer and sends their location and food order. The wanter is able to accept/deny the order. If order is accepted wanter is able see the order list and bring the order to wanter. Once the order is received, wanter can deliver the payment via build in payment method. For this project I designed the UI and programmed the wanter section of the app."
+                ],
+                "codeassets": ["Android", "Java", "Firebase"],
+                "previews": [
+                    "http://res.cloudinary.com/mi6img/image/upload/c_scale,h_600/v1515605602/Screenshot_1513453161_e3qjig.png"
+                ],
+                "links" : {
+                    "github": "https://github.com/Mahesh-Ranaweera/BringMeFood-FinalProject",
+                    "youtube": "",
+                    "vimeo": "",
+                    "website": "",
+                    "mobile": ""
+                }
+            },
+            {
                 "title": "UOIT Connect (SOFE3700 Project)",
                 "date" : "2016-11",
-                "desc" : "This website was designed with my friends as a major group project for SOFE3700. UOIT connect allows students to manage their timetable and organize their time to meet friends and arrange group activites. User is allowed to follow fellow classmates and the website will track their available time. After futher development this website will be released to student use.",
+                "desc" : [
+                    "This website was designed with my friends as a major group project for SOFE3700. UOIT connect allows students to manage their timetable and organize their time to meet friends and arrange group activites. User is allowed to follow fellow classmates and the website will track their available time. After futher development this website will be released to student use."
+                ],
                 "codeassets": ["HTML", "JS", "CSS", "Illustrator"],
                 "previews": [
                     "http://res.cloudinary.com/mi6img/image/upload/c_scale,w_600/v1515563962/uoit_connect_q3uaqb.png"
@@ -366,7 +407,9 @@
             {
                 "title": "TYPSnetwork Website",
                 "date" : "2016-05",
-                "desc" : "During the summer of 2016, I was hired by DreBu, a  non-profit organization inorder to design a youth membersite. Main purpose of this website is to allow youths(of ages of 15-30) to seek support and guidance from peer supporters. Platform allows youths to be a supporter, participant or both. They are allowed to create a member account. Platform allows users to see other members and there supporting areas. Members are allowed to post events and posts. I also designed the TYPS Network mobile apps (Android and Apple)",
+                "desc" : [
+                    "During the summer of 2016, I was hired by DreBu, a  non-profit organization inorder to design a youth membersite. Main purpose of this website is to allow youths(of ages of 15-30) to seek support and guidance from peer supporters. Platform allows youths to be a supporter, participant or both. They are allowed to create a member account. Platform allows users to see other members and there supporting areas. Members are allowed to post events and posts. I also designed the TYPS Network mobile apps (Android and Apple)"
+                ],
                 "codeassets": ["HTML", "JS", "CSS", "Illustrator"],
                 "previews": [
                     "http://res.cloudinary.com/mi6img/image/upload/c_scale,w_600/v1515562414/image_fillqi.jpg"
@@ -382,7 +425,9 @@
             {
                 "title": "mi6softlab_v1 website",
                 "date" : "2016-04",
-                "desc" : "This was my first official website. I designed this website to be minimalistic with a sci-fi look.",
+                "desc" : [
+                    "This was my first official website. I designed this website to be minimalistic with a sci-fi look."
+                ],
                 "codeassets": ["HTML", "JS", "CSS", "Photoshop", "Illustrator"],
                 "previews": [
                     "http://res.cloudinary.com/mi6img/image/upload/c_scale,w_600/v1515557749/web_sitev1_pee9tl.png"
@@ -398,7 +443,9 @@
             {
                 "title": "ParadigmShift 2198 Website (High School Robotic Website)",
                 "date" : "2013-2016",
-                "desc" : "I designed this website with the help of my high school robotic club members. Site was designed to promote L'Amoreaux Collegiate Institutes Robotic Club and its achievements. I consider this website to be my first entry into web development.",
+                "desc" : [
+                    "I designed this website with the help of my high school robotic club members. Site was designed to promote L'Amoreaux Collegiate Institutes Robotic Club and its achievements. I consider this website to be my first entry into web development."
+                ],
                 "codeassets": ["HTML", "JS", "CSS", "Photoshop", "Illustrator"],
                 "previews": [
                     "http://res.cloudinary.com/mi6img/image/upload/c_scale,w_600/v1515545266/team2198_web_gqkq6q.png"
