@@ -219,7 +219,7 @@ social bar
 	color: var(--darkgrey-sec);
 }
 
-.behance, .codepen, .devianart, .github, .youtube, .vimeo, .info, .globe, .mobileapp, .linkicon {
+.behance, .codepen, .devianart, .github, .youtube, .vimeo, .info, .globe, .mobileapp, .linkicon, .resume {
 	width: 32px;
 	height: 32px;
 	display: block;
@@ -228,7 +228,7 @@ social bar
 	float: left;
 }
 
-.behance:hover, .codepen:hover, .devianart:hover, .github:hover, .youtube:hover, .vimeo:hover, .info:hover, .globe:hover, .mobileapp:hover, .linkicon:hover {
+.behance:hover, .codepen:hover, .devianart:hover, .github:hover, .youtube:hover, .vimeo:hover, .info:hover, .globe:hover, .mobileapp:hover, .linkicon:hover, .resume:hover {
 	opacity: 1;
 }
 
@@ -271,6 +271,11 @@ social bar
 .linkicon{
 	background: url('/assets/link.svg');
 }
+
+.resume{
+	background: url('/assets/resume.svg');
+}
+
 
 /**
 * Muuri grid
@@ -355,7 +360,8 @@ social bar
 	text-indent: 20px;
 	padding: 4px;
 	box-sizing: border-box;
-	word-wrap: break-word;
+	text-align: justify;
+	text-justify: newspaper;
 }
 
 .card-section{
@@ -418,4 +424,99 @@ social bar
 	left: 0;
 	right: 0;
 	background-color: transparent;
+}
+
+/** about section **/
+.about-wrapper{
+	width: 80%;
+	max-width: 620px;
+	min-width: 300px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+.app-section{
+	width: 100%;
+	float: left;
+	height: auto;
+	padding: 4px;
+	margin-bottom: 50px;
+	display: block;
+	box-sizing: border-box;
+}
+
+.section-card{
+	background: var(--white-prim);
+	border-radius: 4px;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	-webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+	-moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.section-text-color{
+	color: var(--darkgrey-sec);
+}
+
+.section-text-color, a{
+	color: var(--darkgrey-sec) !important;
+}
+
+.app-about-img {
+	width: 100%;
+	height: 150px;
+	float: left;
+}
+
+.app-about-u{
+	width: 150px !important;
+	height: 150px !important;
+	border-radius: 4px;
+}
+
+.app-name-txt {
+	width: 100%;
+	height: auto;
+	float: left;
+	font-size: 24px;
+	text-align: center;
+}
+
+.app-about-txt {
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 5px;
+	box-sizing: border-box;
+	line-height: 32px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.app-bottom-block {
+	margin-top: 50px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	line-height: 32px;
+	font-size: 16px;
+	float: left;
+}
+
+.resume-block{
+	width: 100px;
+	height: 32px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+	left: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+.resume-block:hover{
+	background-color: rgba(0, 133, 250, 0.1);
 }

@@ -1,3 +1,50 @@
 extends layout
 
 block content
+
+    .about-wrapper
+        .app-section.section-card
+            .app-about-img
+                - var url = content.img
+                img.app-about-u(src=url)
+            .app-name-txt
+                | #{content.title}
+            .app-name-txt
+                | #{content.aka}
+            .app-about-txt
+                | #{content.about}
+            .app-bottom-block   
+                - var resume = content.resume
+                a(href=resume) 
+                    .resume-block
+                        | Resume
+                        .resume
+
+        .app-section
+            .app-about-txt.section-text-color
+                | This website is handmade by me :)
+            .app-about-txt.section-text-color
+                | Credit goes to following open-source libaries and packages
+                br
+                a(href='https://haltu.github.io/muuri')
+                    b Muuri (Responsive, sortable, filterable and draggable grid layouts)
+                
+                br
+                a(href='https://mattboldt.com/demos/typed-js')
+                    b Typed.js (JavaScript Typing Animation Library)
+
+                
+
+
+    include socialbar.pug
+
+    script.
+        function rights(){
+            var curr = new Date();
+            var year = curr.getFullYear();
+            document.getElementById('app-rights').innerHTML = '&copy;'+year+' Mahesh-Ranaweera';
+        }
+
+        window.onload = function(){
+            rights();
+        }

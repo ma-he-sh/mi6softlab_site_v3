@@ -390,7 +390,7 @@
                 "title": "Differential evolution",
                 "date" : "2016-12",
                 "desc" : [
-                    "This website was designed with my friends as a major group project for SOFE3700. UOIT connect allows students to manage their timetable and organize their time to meet friends and arrange group activites. User is allowed to follow fellow classmates and the website will track their available time. After futher development this website will be released to student use."
+                    "DE Algorithm was implements for one of my courses to iteratively optimize a problem based on previous best candidate. We were asked to plot different functions and optimize them using DE and Particle Swarm Optimization(PSO) algorithm and compare there performance."
                 ],
                 "codeassets": ["Python"],
                 "previews": [
@@ -488,9 +488,11 @@
             }
         ],
         "about": {
-            "title" : "",
-            "about" : "",
-            "resume": "url"
+            "img": "/assets/github-U.png",
+            "title" : "Mahesh Ranaweera",
+            "aka": "(mi6softlab)",
+            "about" : "I am a Software Engineering student (Bachelor of Engineering Software,anticipated in 2018) at UOIT. I like programming, building robotic platforms, web applications, websites and graphic designs. I am based on Toronto, Canada.",
+            "resume": "https://www.dropbox.com/s/mocvg8ssojr4qb0/Mahesh%20Ranaweera_resume_web.pdf?dl=0"
         }
     }
 }

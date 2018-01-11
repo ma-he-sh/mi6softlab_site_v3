@@ -37,7 +37,10 @@ router.get('/blog', function (req, res, next) {
 
 /* GET about page. */
 router.get('/about', function (req, res, next) {
-  res.render('about', { title: 'About' });
+  res.render('about', { 
+    title: 'About',
+    content: jsonData.data.about
+  });
 });
 
 module.exports = router;
