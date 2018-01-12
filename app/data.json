@@ -353,7 +353,7 @@
                 "desc" : [
                     "This platform was designed for evaluating Big Data Frameworks real-time and suggest the user which platform is ideal for their project. For this project we decided to use Apache Big Data platforms such as;", 
                     "Batch-only frameworks (apache hadoop), stream-only frameworks (apache storm and apache samza) and hybrid frameworks (apache spark and apache flink)",
-                    "Each framework was deployed on several Digitalocean and AWS droplets with identical system specs. We created an API to interface with the droplet(server) which allows us to execute remote shell commands and gather system data. User interface was designed to allow users to select the data-processing method(batch, stream or hybrid) and Big data framework to compare. Once the evaluation is finished, user is presented with current data and historical evaluation graph",
+                    "Each framework was deployed on several Digitalocean and AWS droplets with identical system specs. We created an API to interface with the droplet(server) which allows us to execute remote shell commands and gather system data. User interface was designed to allow users to select the data-processing method(batch, stream or hybrid) and Big data framework to compare. Once the evaluation is finished, user is presented with current data and historical evaluation graphs.",
                     "For this project my contributions are; Designing the user interface, remote API, and deploying Samza and Storm Frameworks."
                 ],
                 "codeassets": ["Apache-Samza", "Apache-Spark", "Apache-Flink", "Apache-Hadoop", "NodeJS", "JS", "Pug", "CSS", "Shell", "PostgreSQL", "Express", "DigitalOcean", "AWS"],
@@ -408,7 +408,7 @@
                 "title": "UOIT Connect (SOFE3700 Project)",
                 "date" : "2016-11",
                 "desc" : [
-                    "This website was designed with my friends as a major group project for SOFE3700. UOIT connect allows students to manage their timetable and organize their time to meet friends and arrange group activites. User is allowed to follow fellow classmates and the website will track their available time. After futher development this website will be released to student use."
+                    "This website was designed with my friends as a major group project for SOFE3700 (Data Management Systems). UOIT connect allows students to manage their timetable and organize their time to meet friends and arrange group activites. User is allowed to follow fellow classmates, which will allow the user to plan group meetings."
                 ],
                 "codeassets": ["HTML", "JS", "CSS", "Illustrator"],
                 "previews": [
@@ -444,7 +444,7 @@
                 "title": "mi6softlab_v1 website",
                 "date" : "2016-04",
                 "desc" : [
-                    "This was my first official website. I designed this website to be minimalistic with a sci-fi look."
+                    "This is my first official website. I designed this website to be minimalistic with a sci-fi look."
                 ],
                 "codeassets": ["HTML", "JS", "CSS", "Photoshop", "Illustrator"],
                 "previews": [
@@ -491,7 +491,7 @@
             "img": "/assets/github-U.png",
             "title" : "Mahesh Ranaweera",
             "aka": "(mi6softlab)",
-            "about" : "I am a Software Engineering student (Bachelor of Engineering Software,anticipated in 2018) at UOIT. I like programming, building robotic platforms, web applications, websites and graphic designs. I am based on Toronto, Canada.",
+            "about" : "I am a Software Engineering student (Bachelor of Engineering Software, anticipated in 2018) at UOIT. I like programming, building robotic platforms, web applications, websites and graphic designs. I am based on Toronto, Canada.",
             "resume": "https://www.dropbox.com/s/mocvg8ssojr4qb0/Mahesh%20Ranaweera_resume_web.pdf?dl=0"
         }
     }
