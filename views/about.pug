@@ -19,6 +19,13 @@ block content
                     .resume-block
                         | Resume
                         .resume
+        
+        //- .app-section.section-card
+        //-     .charts_desc
+        //-         | Javascript
+        //-     .charts#graph1
+        //-     .charts#graph2
+        //-     .charts#graph3
 
         .app-section
             .app-about-txt.section-text-color
@@ -36,6 +43,7 @@ block content
                 
     include socialbar.pug
 
+    script(src='/js/progressbar.js')
     script.
         function rights(){
             var curr = new Date();
@@ -46,3 +54,15 @@ block content
         window.onload = function(){
             rights();
         }
+
+        //- var bar = new ProgressBar.Line(graph1, {
+        //-     strokeWidth: 4,
+        //-     easing: 'easeInOut',
+        //-     duration: 1400,
+        //-     color: '#0D8AEE',
+        //-     trailColor: '#EEE',
+        //-     trailWidth: 4,
+        //-     svgStyle: {width: '100%', height: '100%'}
+        //- });
+
+        //- bar.animate(.40);
