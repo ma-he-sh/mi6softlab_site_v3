@@ -394,7 +394,7 @@
                 ],
                 "codeassets": ["NodeJS", "JS", "Firebase", "UNITY"],
                 "previews": [
-                    "http://res.cloudinary.com/mi6img/image/upload/c_scale,h_600/v1515863657/gallery_qw5m31.jpg"
+                    "https://res.cloudinary.com/mi6img/image/upload/c_scale,h_600/v1515863657/gallery_qw5m31.jpg"
                 ],
                 "links" : {
                     "github": "https://github.com/Mahesh-Ranaweera/firebase_unity_controller",
