@@ -52,12 +52,16 @@ block content
             .app-about-txt.section-text-color
                 | Credit goes to following open-source libaries and packages
                 br
-                a(href='https://haltu.github.io/muuri')
+                a(href='https://haltu.github.io/muuri' target='_blank')
                     b Muuri (Responsive, sortable, filterable and draggable grid layouts)
                 
                 br
-                a(href='https://mattboldt.com/demos/typed-js')
+                a(href='https://mattboldt.com/demos/typed-js' target='_blank')
                     b Typed.js (JavaScript Typing Animation Library)
+                
+                br
+                a(href='https://kimmobrunfeldt.github.io/progressbar.js' target='_blank')
+                    b  ProgressBar.js (Responsive Progress bars for web)
 
                 
     include socialbar.pug
@@ -84,7 +88,7 @@ block content
                 easing: 'easeInOut',
                 duration: 1400,
                 color: '#0D8AEE',
-                trailColor: '#EEE',
+                trailColor: 'rgba(238, 238, 238, 0.026)',
                 trailWidth: 4,
                 svgStyle: {width: '100%', height: '100%'}
             });

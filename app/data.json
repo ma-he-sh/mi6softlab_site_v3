@@ -387,6 +387,24 @@
                 }
             },
             {
+                "title": "Explore with Firebase",
+                "date" : "2017-09",
+                "desc" : [
+                    "Explore with Firebase is a web app that allows users to use their mobile devices as a gaming controller. App sends real-time device orientation and acceleration data to gaming console to manipulate the 3d/VR environment. This app was designed collaboratively with my colleagues for Hack The North, hackathon event at University of Waterloo."
+                ],
+                "codeassets": ["NodeJS", "JS", "Firebase", "UNITY"],
+                "previews": [
+                    "http://res.cloudinary.com/mi6img/image/upload/c_scale,h_600/v1515863657/gallery_qw5m31.jpg"
+                ],
+                "links" : {
+                    "github": "https://github.com/Mahesh-Ranaweera/firebase_unity_controller",
+                    "youtube": "",
+                    "vimeo": "",
+                    "website": "https://devpost.com/software/firebase_unity_controller",
+                    "mobile": ""
+                }
+            },
+            {
                 "title": "Differential evolution",
                 "date" : "2016-12",
                 "desc" : [
