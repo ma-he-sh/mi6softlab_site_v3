@@ -20,12 +20,31 @@ block content
                         | Resume
                         .resume
         
-        //- .app-section.section-card
-        //-     .charts_desc
-        //-         | Javascript
-        //-     .charts#graph1
-        //-     .charts#graph2
-        //-     .charts#graph3
+        .app-section
+            .charts#graph1
+            .charts_desc
+                | HTML, Pug & CSS
+            .charts#graph2
+            .charts_desc
+                | Adobe Creative Cloud
+            .charts#graph3
+            .charts_desc
+                | Javascript
+            .charts#graph4
+            .charts_desc
+                | SQL
+            .charts#graph5
+            .charts_desc
+                | NodeJS & Express
+            .charts#graph6
+            .charts_desc
+                | PHP
+            .charts#graph7
+            .charts_desc
+                | Python
+            .charts#graph8
+            .charts_desc
+                | Java & C
 
         .app-section
             .app-about-txt.section-text-color
@@ -55,14 +74,20 @@ block content
             rights();
         }
 
-        //- var bar = new ProgressBar.Line(graph1, {
-        //-     strokeWidth: 4,
-        //-     easing: 'easeInOut',
-        //-     duration: 1400,
-        //-     color: '#0D8AEE',
-        //-     trailColor: '#EEE',
-        //-     trailWidth: 4,
-        //-     svgStyle: {width: '100%', height: '100%'}
-        //- });
+        var graph_list = [graph1, graph2, graph3, graph4, graph5, graph6, graph7, graph8];
+        var perce_list = [1.0, 1.0, 1.0, 1.0, 0.75, 0.75, 0.75,  0.6];
 
-        //- bar.animate(.40);
+        for(var i = 0; i < 8; i++){
+            //console.log(graph_list[i], perce_list[i]);
+            var bar = new ProgressBar.Line(graph_list[i], {
+                strokeWidth: 4,
+                easing: 'easeInOut',
+                duration: 1400,
+                color: '#0D8AEE',
+                trailColor: '#EEE',
+                trailWidth: 4,
+                svgStyle: {width: '100%', height: '100%'}
+            });
+
+            bar.animate(perce_list[i]);
+        }
