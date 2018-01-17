@@ -2,5 +2,47 @@ extends layout
 
 block content
 
+    //- .right_30w(style='height:400px;')
+    //-         | Menu
+
+    //- .right_70w
+    .grid
+        for item, i in content
+            .item.half_w
+                .card
+                    .card-img-cont
+                        for k in content[i].previews
+                            - var url = k
+                            img(src=url, style='border-top-left-radius: 2.5px; border-top-right-radius: 2.5px',)
+                    
+                    - var url=content[i].cont
+                    script(src=url)
+
+                    .card-section
+                        if (content[i].links.github != "")
+                            - var github = content[i].links.github
+                            a(href=github, target='_blank', title='Github Repo')
+                                div(class="github")
+
+                        if (content[i].links.website != "")
+                            - var globe = content[i].links.website
+                            a(href=globe, target='_blank', title='Website')
+                                div(class="globe")
+
+                        if (content[i].links.vimeo != "")
+                            - var vimeo = content[i].links.vimeo
+                            a(href=vimeo, target='_blank', title='Vimeo Link')
+                                div(class="vimeo")
+
+                        if (content[i].links.youtube != "")
+                            - var youtube = content[i].links.youtube
+                            a(href=youtube, target='_blank', title='YouTube video')
+                                div(class="youtube")
+                        
+                        if (content[i].links.mobile != "")
+                            - var mobile = content[i].links.mobile
+                            a(href=mobile, target='_blank', title='Mobile App Link')
+                                div(class="mobileapp")
+
     script.
       var grid = new Muuri('.grid');

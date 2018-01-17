@@ -1,5 +1,6 @@
 /**imports**/
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
 
 
 :root{
@@ -216,4 +217,14 @@ p {
   white-space: -pre-wrap;     
   white-space: -o-pre-wrap;   
   word-wrap: break-word;
+}
+
+.gist-file pre, .gist-file span,.gist-file p, .gist-file ul, .gist-file li, .gist-file code{
+  font-size: 12px !important;
+  font-family: 'Fira Mono', monospace !important;
+}
+
+.gist-file code{
+  background-color: var(--yellow-prim) !important;
+  opacity: 0.84 !important;
 }

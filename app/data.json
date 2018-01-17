@@ -497,12 +497,17 @@
         ],
         "blog": [
             {
-                "title:" : "",
-                "date"  : "",
-                "description": "",
-                "previews": [
-
-                ]
+                "title" : "Electron and Standalone Flask server",
+                "date"  : "Jan 16, 2017",
+                "cont": "https://gist.github.com/Mahesh-Ranaweera/a0507286565acb236cd17220f4ca51c0.js",
+                "previews": [],
+                "links" : {
+                    "github" : "https://gist.github.com/Mahesh-Ranaweera/a0507286565acb236cd17220f4ca51c0",
+                    "youtube": "",
+                    "vimeo"  : "",
+                    "website": "",
+                    "mobile" : ""
+                }
             }
         ],
         "about": {
