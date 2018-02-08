@@ -347,7 +347,7 @@
         ],
         "dev": [{
                 "title": "QHacks 2018: GeoTourist",
-                "date": "2017-12",
+                "date": "2018-04",
                 "desc": [
                     "We designed this web-app for Qhacks 2018. The idea of the app is to provide guidance to users to find certain places around them. App uses a mobile phone's GPS, compass and Google Maps API to determine which direction and point of interest that the user is facing. Information about the point-of-interest is displayed to the user.",
                     "App is built using NodeJS and uses Google Map API to retrieve realtime location information. App also uses mobile webcam, orientation and location to provide a AR experience to the user."
