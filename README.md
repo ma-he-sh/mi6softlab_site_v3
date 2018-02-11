@@ -3,6 +3,7 @@
 This is my redesigned websites. Data is organized in the JSON file instead updating data
 on each page. Images are handled by `Cloudinary` which allows me to dynamically request optimized images.
 
+JSON Data preview
 ```json
 {
     "data": {
@@ -21,8 +22,7 @@ on each page. Images are handled by `Cloudinary` which allows me to dynamically 
                 "type": "image",
                 "site": "Unsplash",
                 "date": "2017-12"
-            }
-            ....],
+            }],
         "dev": [{
                 "title": "QHacks 2018: GeoTourist",
                 "date": "2018-04",
@@ -40,6 +40,5 @@ on each page. Images are handled by `Cloudinary` which allows me to dynamically 
                     "website": "https://devpost.com/software/geotourist",
                     "mobile": "https://geotourist.tech/"
                 }
-              },
-            ...]
+              }]
 ```
