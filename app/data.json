@@ -512,19 +512,34 @@
                 }
             }
         ],
-        "blog": [{
-            "title": "Electron and Standalone Flask server",
-            "date": "Jan 16, 2017",
-            "cont": "https://gist.github.com/Mahesh-Ranaweera/a0507286565acb236cd17220f4ca51c0.js",
-            "previews": [],
-            "links": {
-                "github": "https://gist.github.com/Mahesh-Ranaweera/a0507286565acb236cd17220f4ca51c0",
-                "youtube": "",
-                "vimeo": "",
-                "website": "",
-                "mobile": ""
+        "blog": [
+            {
+                "title": "Electron and Standalone Flask server",
+                "date": "Jan 16, 2018",
+                "cont": "https://gist.github.com/Mahesh-Ranaweera/a0507286565acb236cd17220f4ca51c0.js",
+                "previews": [],
+                "links": {
+                    "github": "https://gist.github.com/Mahesh-Ranaweera/a0507286565acb236cd17220f4ca51c0",
+                    "youtube": "",
+                    "vimeo": "",
+                    "website": "",
+                    "mobile": ""
+                }
+            },
+            {
+                "title": "Getting Started with Docker",
+                "date": "March 11, 2018",
+                "cont": "https://gist.github.com/Mahesh-Ranaweera/2f14ba8a918f6822692c762f98d68cba.js",
+                "previews": [],
+                "links": {
+                    "github": "https://gist.github.com/Mahesh-Ranaweera/2f14ba8a918f6822692c762f98d68cba",
+                    "youtube": "",
+                    "vimeo": "",
+                    "website": "",
+                    "mobile": ""
+                }
             }
-        }],
+        ],
         "about": {
             "img": "/assets/github-U.png",
             "title": "Mahesh Ranaweera",
