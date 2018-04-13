@@ -355,8 +355,8 @@
                 ],
                 "codeassets": ["Tensorflow", "Keras", "Theano", "Python", "Caffe", "OpenCV", "NodeJS", "Pug", "Express", "AWS"],
                 "previews": [
-                    "http://res.cloudinary.com/mi6img/image/upload/c_scale,h_600/v1523579191/NN_header_svg_j60cyy.svg",
-                    "http://res.cloudinary.com/mi6img/image/upload/c_scale,h_600/v1523579391/architecture_png_vr10gm.png"
+                    "https://res.cloudinary.com/mi6img/image/upload/c_scale,h_600/v1523579191/NN_header_svg_j60cyy.svg",
+                    "https://res.cloudinary.com/mi6img/image/upload/c_scale,h_600/v1523579391/architecture_png_vr10gm.png"
                 ],
                 "links": {
                     "github": "",
