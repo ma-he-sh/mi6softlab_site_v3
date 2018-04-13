@@ -343,11 +343,31 @@
                 "type": "video",
                 "site": "Youtube",
                 "date": "2013-11"
-            }
+            } 
         ],
-        "dev": [{
-                "title": "QHacks 2018: GeoTourist",
+        "dev": [
+            {
+                "title": "Student Project Management Site",
                 "date": "2018-04",
+                "desc": [
+                    "This platform was designed for students to manage their university, college or school projects. Platform allows students to create project groups, join groups or add members. Platform also allows realtime chat and file-uploads facilities. Agileboard allows students to manage their tasks and assign tasks to group members.",
+                    "Realtime chat is handled by firebase. Student and group information is stored in RethinkDB, a no-SQL database. Student signup and signin is handled by Firebase-auth, which allows us to authenticate and validate emails."
+                ],
+                "codeassets": ["NodeJS", "Pug", "CSS", "Express", "Firebase", "RethinkDB", "Socket-IO", "Firebase-auth", "AWS"],
+                "previews": [
+                    "https://res.cloudinary.com/mi6img/image/upload/c_scale,h_600/v1523577522/Screenshot_from_2018-04-12_19.54.45_mmsk6l.png"
+                ],
+                "links": {
+                    "github": "https://github.com/Mahesh-Ranaweera/SOFE_4630U_FinalGroupProject",
+                    "youtube": "",
+                    "vimeo": "",
+                    "website": "http://ec2-35-183-40-144.ca-central-1.compute.amazonaws.com:3000",
+                    "mobile": ""
+                }
+            },
+            {
+                "title": "QHacks 2018: GeoTourist",
+                "date": "2018-02",
                 "desc": [
                     "We designed this web-app for Qhacks 2018. The idea of the app is to provide location guidance to the users. App uses a mobile phone's GPS, compass and Google Maps API to determine which direction and point of interest that the user is facing. Information about the point-of-interest is displayed to the user.",
                     "App is built using NodeJS and uses Google Map API to retrieve realtime location information. App also uses mobile webcam, orientation and location to provide a AR experience to the user."
