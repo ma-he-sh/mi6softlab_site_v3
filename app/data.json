@@ -347,6 +347,26 @@
         ],
         "dev": [
             {
+                "title": "Violence and Assault Recognition Using Neural Network : Capstone Project",
+                "date": "2017-09 - 2018-04",
+                "desc": [
+                    "We designed this Real-time Assualt and Violence Detection platform to fill in an existing gap in detecting violent activities. This platform detects violent activities and alerts law enforcement or private security firms to dispatch immediately. Violent activities can be detected in real-time using live video feed from webcam, or existing suveillance cameras or by uploading video footage.",
+                    "PLatform allows to detect violence from pre-recorded video footage and live video feed. Notify security personnels about the violent acts. Extract faces from the scene."
+                ],
+                "codeassets": ["Tensorflow", "Keras", "Theano", "Python", "Caffe", "OpenCV", "NodeJS", "Pug", "Express", "AWS"],
+                "previews": [
+                    "http://res.cloudinary.com/mi6img/image/upload/c_scale,h_600/v1523579191/NN_header_svg_j60cyy.svg",
+                    "http://res.cloudinary.com/mi6img/image/upload/c_scale,h_600/v1523579391/architecture_png_vr10gm.png"
+                ],
+                "links": {
+                    "github": "",
+                    "youtube": "https://www.youtube.com/watch?v=gEKTyDabTQ0",
+                    "vimeo": "",
+                    "website": "http://varunn.ca",
+                    "mobile": ""
+                }
+            },
+            {
                 "title": "Student Project Management Site",
                 "date": "2018-04",
                 "desc": [
