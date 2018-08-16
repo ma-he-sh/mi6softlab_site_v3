@@ -578,6 +578,19 @@
                     "website": "",
                     "mobile": ""
                 }
+            },
+            {
+                "title": "Wordpress Dev env with Docker",
+                "date": "August 15, 2018",
+                "cont": "https://gist.github.com/Mahesh-Ranaweera/52523dfa280db0330ec6ebc76d1090b7.js",
+                "previews": [],
+                "links": {
+                    "github": "https://gist.github.com/Mahesh-Ranaweera/52523dfa280db0330ec6ebc76d1090b7",
+                    "youtube": "",
+                    "vimeo": "",
+                    "website": "",
+                    "mobile": ""
+                }
             }
         ],
         "about": {
