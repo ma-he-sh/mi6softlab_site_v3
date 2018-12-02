@@ -347,6 +347,24 @@
         ],
         "dev": [
             {
+                "title": "Color GRID",
+                "date": "2018-09",
+                "desc": [
+                    "This is a simple color picker app I designed to experiment with Electron Framework. App allows to create swatches and generate color shades."
+                ],
+                "codeassets": ["NodeJS", "JS", "Electron"],
+                "previews": [
+                    "https://res.cloudinary.com/mi6img/image/upload/q_51,c_scale,h_600/v1543712986/Screenshot_from_2018-12-01_20-03-21_zsmg0z.png"
+                ],
+                "links": {
+                    "github": "https://github.com/Mahesh-Ranaweera/ColorGRID",
+                    "youtube": "",
+                    "vimeo": "",
+                    "website": "",
+                    "mobile": ""
+                }
+            },
+            {
                 "title": "Violence and Assault Recognition Using Neural Network : Capstone Project",
                 "date": "2017-09 - 2018-04",
                 "desc": [
