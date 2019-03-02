@@ -404,6 +404,24 @@
                 }
             },
             {
+                "title": "HIVE: Team Management",
+                "date": "2018-03",
+                "desc": [
+                    "This platform allows team messaging and group management. Users are able to join, create and manage groups. Socket.IO was used to handle the realtime messaging."
+                ],
+                "codeassets": ["NodeJS", "Pug", "JS", "CSS", "Express", "RethinkDB", "OpenweatherAPI", "AWS", "Socket-IO"],
+                "previews": [
+                    "https://res.cloudinary.com/mi6img/image/upload/c_scale,h_600/v1551537520/hive_description_ger3kj.png"
+                ],
+                "links": {
+                    "github": "https://github.com/Mahesh-Ranaweera/Assign2_Team-Messaging_webapp",
+                    "youtube": "",
+                    "vimeo": "",
+                    "website": "",
+                    "mobile": ""
+                }
+            },
+            {
                 "title": "QHacks 2018: GeoTourist",
                 "date": "2018-02",
                 "desc": [
