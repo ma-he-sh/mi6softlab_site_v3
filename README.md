@@ -4,7 +4,7 @@ This is my redesigned websites. Data is organized in the JSON file instead updat
 on each page. Images are handled by `Cloudinary` which allows me to dynamically request optimized images.
 
 JSON Data preview
-```json
+```
 {
     "data": {
         "design": [{
@@ -34,7 +34,7 @@ JSON Data preview
                     "https://res.cloudinary.com/mi6img/image/upload/c_scale,h_600/v1518107718/gallery_laydhl.jpg"
                 ],
                 "links": {
-                    "github": "https://github.com/Mahesh-Ranaweera/qhacks",
+                    "github": "https://github.com/mi6softlab/qhacks",
                     "youtube": "https://youtu.be/aJ8B0QjJwpM",
                     "vimeo": "",
                     "website": "https://devpost.com/software/geotourist",
